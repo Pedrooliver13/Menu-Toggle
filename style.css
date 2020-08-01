@@ -12,3 +12,10 @@
   transition: all 235ms cubic-bezier(.95, .05, .795, .035);
   width: 100vw;
 }
+
+
+/* classe do toggle */
+.c-offcanvas-menu.is-active {
+  transform: none;
+  transition: all 205ms cubic-bezier(.19, 1, .22, 1);
+}
